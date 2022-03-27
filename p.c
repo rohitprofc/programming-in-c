@@ -2,29 +2,39 @@
 #include<string.h>
 void main()
 {
-    char str1[50],str2[50],final[100];
-    int i,j,k=0,p;
-    printf("Enter String 1");
+    char str1[50],str2[50],str3[50];
+    int i,j,k,p;
+    printf("\nEnter Main String:\n");
+    printf("--------------------\n");
     gets(str1);
-    printf("Enter String 2");
+    printf("Enter Substring:\n");
+    printf("----------------\n");
     gets(str2);
-    printf("Enter position");
+    printf("Enter position: ");
     scanf("%d",&p);
-    for (i=0;i<p;i++)
+    for(i=0; i<p; i++)
     {
-    final[i]=str1[i];
+        str3[i] = str1[i];
     }
-    k=i;
-    for (j=0;str2[j] != '\0';j++)
+    for(j=0; str2[j] != '\0'; j++)
     {
-        final[k] = str1[j];
-        k++;
+        str3[i++] = str2[j];
     }
-    for(i=p;str1[i] != '\0';i++)
+    for(k=p-1; str1[k] != '\0'; k++)
     {
-        final[k] = str1[i];
-        k++;
+        str3[i++] = str1[k];
     }
-    final[k] = '\0';
-    printf("The resultant string is %s",final);
+    str3[i] = '\0';
+    printf("Final string is %s\n", str3);
 }
+/*
+Output:- 
+Enter Main String:
+------------------
+Rohit
+Enter Substring:
+----------------
+Chess
+Enter position: 5
+Final string is RohitChess
+*/

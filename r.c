@@ -4,17 +4,20 @@ int main()
 {
     int ar[50], i, size, k, large;
     printf("Input the size of array:\n");
+    printf("------------------------\n");
     scanf("%d", &size);
     printf("Input %d elements in array:\n", size);
+    printf("---------------------------\n");
     for(i=0; i<size; i++)
     {
         printf("Element %d:",i);
         scanf("%d",&ar[i]);
     }
-    printf("\n Enter which position of largest element is required: \n");
+    printf("\nEnter which position of largest element is required: \n");
+    printf("------------------------------------------------------\n");
     scanf("%d", &k);
-    large = kl(ar[50],size,k);
-    printf("\n %d largest element in array is %d", k, large);
+    large = kl(ar,size,k);
+    printf("\n%d largest element in array is %d\n", k, large);
     return 0;
 }
 int kl(int ar[], int n, int k)
@@ -27,10 +30,27 @@ int kl(int ar[], int n, int k)
             if(ar[j] < ar[j+1])
             {
                 temp = ar[j];
-                ar[j+1] = ar[j];
+                ar[j] = ar[j+1];
                 ar[j+1] = temp;
             }
         }
     }
     return ar[k-1];
 }
+/*
+Output:-
+Input the size of array:
+------------------------
+3
+Input 3 elements in array:
+---------------------------
+Element 0:1
+Element 1:2
+Element 2:5
+
+Enter which position of largest element is required: 
+------------------------------------------------------
+1
+
+1 largest element in array is 5
+*/

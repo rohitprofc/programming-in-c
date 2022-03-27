@@ -17,7 +17,7 @@
 + o - Check string is PALINDROME or NOT
 + p - String merging
 + q - Decimal number to binary number
-+ r - nth largest element of array
++ r - kth largest element of array
 + s - GCD of two non negative integers using reccursion
 + t - Print sum of all element in array
 + u - Count the no.of vowels and consonants in a string
