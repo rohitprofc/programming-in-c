@@ -26,7 +26,7 @@
 + x - Structure to display the name, marks in 5 subjects & total marks of given no.of students (Using array of stuctures)
 + y - Structure for addition of two complex numbers
 + z - Structure for substraction of two complex numbers
-+ aa - Structure for multiplication of two complex numbers
-+ ab - Structure for division of two complex numbers
-+ ac - Copy contents of one file to another file
-+ ad - Count the no.of characters, words &lines in a given txt file.
++ za - Structure for multiplication of two complex numbers
++ zb - Structure for division of two complex numbers
++ zc - Copy contents of one file to another file
++ zd - Count the no.of characters, words &lines in a given txt file.
