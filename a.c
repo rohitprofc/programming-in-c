@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    printf("Hey, Rohit here.\n");
+    printf("Rohit Chess\n");
     return 0;
 }
-// Output:- Hey, Rohit here.
+// Output:- Rohit Chess
