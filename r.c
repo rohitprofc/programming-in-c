@@ -10,7 +10,7 @@ int main()
     printf("---------------------------\n");
     for(i=0; i<size; i++)
     {
-        printf("Element %d:",i);
+        printf("Element %d:",i+1);
         scanf("%d",&ar[i]);
     }
     printf("\nEnter which position of largest element is required: \n");
@@ -38,19 +38,18 @@ int kl(int ar[], int n, int k)
     return ar[k-1];
 }
 /*
-Output:-
 Input the size of array:
 ------------------------
 3
 Input 3 elements in array:
 ---------------------------
-Element 0:1
-Element 1:2
-Element 2:5
+Element 1:1
+Element 2:4
+Element 3:3
 
 Enter which position of largest element is required: 
 ------------------------------------------------------
-1
+2
 
-1 largest element in array is 5
+2 largest element in array is 3
 */

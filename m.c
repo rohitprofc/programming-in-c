@@ -2,7 +2,7 @@
 #include<math.h>
 void main()
 {
-    float a[100];
+    int a[100];
     int i,n;
     float mean,var,sum=0;
     printf("Enter the no.of elements: \n");
@@ -12,7 +12,7 @@ void main()
     printf("-------------------------------\n");
     for (i=0; i<n; i++)
     {
-        scanf("%f",&a[i]);
+        scanf("%d",&a[i]);
     }
     for (i=0; i<n; i++)
     {
