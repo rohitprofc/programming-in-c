@@ -30,4 +30,3 @@
 + zb - Structure for division of two complex numbers
 + zc - Copy contents of one file to another file
 + zd - Count the no.of characters, words &lines in a given txt file.
-![logo](https://drive.google.com/file/d/1MI9tjfQkH6MfEsQlAkioZ8lCd2iFwMSS/view?usp=sharing)
