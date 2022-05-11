@@ -1,6 +1,6 @@
 # Index
 
-+ a - Admin
++ a - Who am I?
 + b - Perimetre and Area of rectangle
 + c - Area of triangle using heron's formula
 + d - Finding out specific type of triangle by side length

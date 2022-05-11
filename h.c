@@ -2,7 +2,7 @@
 int main()
 {
     int n,sum=0,temp,rem;
-    printf("Enter n values:\n");
+    printf("Enter a number:\n");
     printf("---------------\n");
     scanf("%d",&n);
     temp = n;
@@ -28,7 +28,7 @@ int main()
 }
 /*
 Output:-
-Enter n values:
+Enter a number:
 ---------------
 371
 |

@@ -4,7 +4,7 @@ int main()
 {
     char a[20];
     int begin,end,mid,len=0,i=0;
-    printf("\n Enter the String = ");
+    printf("\nEnter the String = ");
     gets(a);
     while (a[i] != '\0')
     {
@@ -17,18 +17,18 @@ int main()
     {
         if (a[begin] != a[end])
         {
-            printf("\nNOT PALINDROME\n");
+            printf("\n%s is NOT PALINDROME\n",a);
             break;
         }
         end--;
     }
     if (begin == mid)
-    printf("\nPALINDROME\n");
+    printf("\n%s is PALINDROME\n",a);
     return 0;
 }
 /* 
 Output:-
- Enter the String = malayalam
+Enter the String = malayalam
 
-PALINDROME
+malayalam is PALINDROME
 */

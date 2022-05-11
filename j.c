@@ -2,7 +2,7 @@
 void main()
 {
     int n,i,j;
-    printf("Enter n value:\n");
+    printf("Enter no.of lines:\n");
     printf("--------------\n");
     scanf("%d",&n);
     printf("--------------\n");
@@ -19,7 +19,7 @@ void main()
 }
 /*
 Output:-
-Enter n value:
+Enter no.of lines:
 --------------
 5
 --------------

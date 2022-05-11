@@ -2,8 +2,8 @@
 void main()
 {
     int n,rev=0,rem;
-    printf("Enter n values:\n");
-    printf("---------------\n");
+    printf("Enter a number:\n");
+    printf("--------------\n");
     scanf("%d",&n);
     while(n!=0)
     {
@@ -15,8 +15,8 @@ void main()
 }
 /*
 Output:-
-Enter n values:
----------------
+Enter a number:
+--------------
 96
 Reverse is 69
 */

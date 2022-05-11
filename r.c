@@ -10,7 +10,7 @@ int main()
     printf("---------------------------\n");
     for(i=0; i<size; i++)
     {
-        printf("Element %d:",i+1);
+        printf("Element %d: ",i+1);
         scanf("%d",&ar[i]);
     }
     printf("\nEnter which position of largest element is required: \n");
@@ -43,9 +43,9 @@ Input the size of array:
 3
 Input 3 elements in array:
 ---------------------------
-Element 1:1
-Element 2:4
-Element 3:3
+Element 1: 1
+Element 2: 4
+Element 3: 3
 
 Enter which position of largest element is required: 
 ------------------------------------------------------

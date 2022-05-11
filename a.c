@@ -1,7 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    printf("Rohit Chess\n");
+    printf("Hola!\nI'm Rohit\nI play chess\nwhat about a game??");
     return 0;
 }
-// Output:- Rohit Chess
+/* 
+Output:- 
+Hola!
+I'm Rohit
+I play chess
+what about a game??
+*/

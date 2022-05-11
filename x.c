@@ -36,7 +36,7 @@ Enter Name,m1,m2,m3,m4,m5,m6 of student: 1
 Rohit 8 9 8 9 8 9 
 Enter Name,m1,m2,m3,m4,m5,m6 of student: 2
 ----------------------------------------
-Maggie 9 9 9 9 9 9
+Jassu 9 9 9 9 9 9
 Details of 2 students:
 ------------------------
 Rohit   8       9       8       9       8       9       51

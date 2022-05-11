@@ -61,23 +61,17 @@ int main()
 /*Output:-
 Enter the no.of rows:
 ---------------------
-2
-2
+2 2 
 Enter the no.of colomn:
 -----------------------
-2
-2
+2 2 
 Enter the first matrix element = 
-2
-2
-2
-2
+4 5
+5 1
 Enter the second matrix element = 
-2
-2
-2
-2
+5 1
+4 5
 Matrix multiplication is possible
-88
-88
+40 29
+29 10
 */
