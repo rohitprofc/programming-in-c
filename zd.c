@@ -40,9 +40,17 @@ int main()
 Output:-
 Enter file name: 
 ----------------
+<<<<<<< HEAD
 a.c
 
 > No.of Characters = 143
 > No.of Words = 36
 > No.of Lines = 12
+=======
+rohi.txt
+
+> No.of Characters = 10
+> No.of Words = 2
+> No.of Lines = 2
+>>>>>>> d176da5150894e026f494c0fb6dab9129c53c462
 */
