@@ -15,8 +15,8 @@ long db(int d)
 int main()
 {
     int d;
-    printf("\nEnter a decimal number:\n");
-    printf("-------------------------\n");
+    printf("Enter a decimal number:\n");
+    printf("-----------------------\n");
     scanf("%d", &d);
     printf("Equivalent binary number is %ld \n", db(d));
     return 0;
@@ -24,7 +24,7 @@ int main()
 /*
 Output:-
 Enter a decimal number:
--------------------------
-45
-Equivalent binary number is 101101
+-----------------------
+51
+Equivalent binary number is 110011 
 */
